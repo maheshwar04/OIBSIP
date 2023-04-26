@@ -1,0 +1,95 @@
+        body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #232323;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			position: sticky;
+		}
+		h1 {
+			margin: 0;
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+		nav {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			position: sticky;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+
+		
+        section {
+            flex: 1;
+            text-align: center;
+            background-image: url('home.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+			min-height: calc(100vh - (20px + 10px + 20px + 20px + 20px));
+        }
+
+		section h2 {
+			font-size: 30px;
+			font-weight: bold;
+			color:white;
+		}
+
+		section p {
+			font-size: 10px;
+			font-size: 20px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			color:white;
+			font-weight: bolder;
+		}
+
+		section button {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		section button:hover {
+			background-color: #fff;
+			color: #333;
+		}
+
+		footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #232323;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+          }
+		footer p {
+			margin: 0;
+			font-size: 14px;
+		}
